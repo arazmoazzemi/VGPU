@@ -1,3 +1,4 @@
+# Ubuntu VGP Unlock
 
 ```
 dmesg | grep -i -e DMAR -e IOMMU
