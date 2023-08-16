@@ -1,4 +1,4 @@
-# Ubuntu VGP Unlock
+# Ubuntu22.04 VGP Unlock
 
 ```
 dmesg | grep -i -e DMAR -e IOMMU
