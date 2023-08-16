@@ -5,16 +5,8 @@ lsmod | grep nvidia
 systemctl status nvidia-vgpu-mgr
 
 
-
-
-
-
-
-
 nvidia-smi
 lspci -s 02:00.0 -k
-
-
 
 
 output of <mdevctl types>  == 0000:02:00.0
@@ -48,7 +40,7 @@ virsh edit <VM-NAME>
   </source>
 </hostdev>
 
---------------------------------
+----
 
 <hostdev mode='subsystem' type='mdev' managed='no' model='vfio-pci' display='on'>
   <source>
