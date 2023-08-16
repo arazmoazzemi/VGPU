@@ -1,5 +1,5 @@
 
-
+```
 dmesg | grep -i -e DMAR -e IOMMU
 lsmod | grep nvidia
 systemctl status nvidia-vgpu-mgr
@@ -59,3 +59,4 @@ virsh edit <VM-NAME>
 </hostdev>
 
 nano /etc/libvirt/qemu/win10.xml
+```
