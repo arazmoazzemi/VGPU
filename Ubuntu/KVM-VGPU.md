@@ -12,32 +12,22 @@ https://gitlab.com/polloloco/vgpu-proxmox
 ----
 
 - VGPU_Installation
-
-
+```bash
 nano /etc/apt/sources.list
-
-
-
 deb http://download.proxmox.com/debian/pve buster pve-no-subscription
 deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 
-apt-get upupdate
-apt-get	upgrade
-
-
+apt-get upupdate -y
+apt-get	upgrade -y
 apt -y install python3 python3-pip git build-essential pve-headers dkms jq
-
 apt install -y git build-essential pve-headers-`uname -r` dkms jq cargo mdevctl unzip uuid
 pip install frida
-
 
 cd /etc/opt
 git clone https://github.com/DualCoder/vgpu_unlock.git
 
-
 # wget http://ftp.br.debian.org/debian/pool/main/mdevctl/mdevctl_0.78-l_all.deb
 wget http://ftp.br.debian.org/debian/pool/main/m/mdevctl/mdevctl_0.81-1_all.deb
-
 
 chmod -R +x vgpu_unlock
 
