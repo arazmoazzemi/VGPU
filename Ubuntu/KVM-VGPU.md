@@ -1,11 +1,9 @@
 # UBUNTU-22.04 VGP Unlock
 
+[Alternatives](https://www.libhunt.com/r/vgpu_unlock)
+LibVF.IO
+----
 
-
-------alternative--------------------------
-https://www.libhunt.com/r/vgpu_unlock
-### LibVF.IO
---------------------------------------------
 https://docs.google.com/document/d/1pzrWJ9h-zANCtyqRgS7Vzla0Y8Ea2-5z2HEi4X75d2Q/edit
 
 https://www.youtube.com/watch?v=cPrOoeMxzu0
