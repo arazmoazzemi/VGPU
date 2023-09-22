@@ -31,11 +31,10 @@ wget http://ftp.br.debian.org/debian/pool/main/m/mdevctl/mdevctl_0.81-1_all.deb
 
 chmod -R +x vgpu_unlock
 
-
-
 dpkg -i mdevctl_0.81-1_all.deb
+```
+----
 
-------------------------------------------
 # Enable_IOMMU
 
 
