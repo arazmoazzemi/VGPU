@@ -4,13 +4,14 @@
 
 - LibVF.IO
 ----
-https://docs.google.com/document/d/1pzrWJ9h-zANCtyqRgS7Vzla0Y8Ea2-5z2HEi4X75d2Q/edit
+- https://docs.google.com/document/d/1pzrWJ9h-zANCtyqRgS7Vzla0Y8Ea2-5z2HEi4X75d2Q/edit
 
-https://www.youtube.com/watch?v=cPrOoeMxzu0
+- https://www.youtube.com/watch?v=cPrOoeMxzu0
 
-https://wvthoog.nl/proxmox-7-vgpu-v2/
+- https://wvthoog.nl/proxmox-7-vgpu-v2/
 
-https://gitlab.com/polloloco/vgpu-proxmox
+- https://gitlab.com/polloloco/vgpu-proxmox
+
 ----
 
 - VGPU_Installation
