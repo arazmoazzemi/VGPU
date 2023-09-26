@@ -92,6 +92,7 @@ chmod +x NVIDIA-Linux-x86_64-450.80-vgpu-kvm.run
 
 ----
 
+```bash
 nano /usr/lib/systemd/system/nvidia-vgpud.service
 
 #comment below line
@@ -100,7 +101,6 @@ nano /usr/lib/systemd/system/nvidia-vgpud.service
 #add below line above it
 ExecStart=/root/vgpu_unlock/vgpu_unlock /bin/nvidia-vgpud
 
-
 nano /usr/lib/nvidia/systemd/nvidia-vgpud.service
 
 #comment below line
@@ -108,8 +108,6 @@ nano /usr/lib/nvidia/systemd/nvidia-vgpud.service
 
 #add below line above it
 ExecStart=/root/vgpu_unlock/vgpu_unlock /bin/nvidia-vgpud
-
-
 
 nano /usr/lib/systemd/system/nvidia-vgpu-mgr.service
 
@@ -130,8 +128,8 @@ ExecStart=/root/vgpu_unlock/vgpu_unlock /bin/nvidia-vgpu-mgr
 
 
 systemctl daemon-reload
-
-
+```
+----
 
 
 -------------------------------------------------------------------------
