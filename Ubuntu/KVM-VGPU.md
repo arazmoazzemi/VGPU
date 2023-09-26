@@ -53,12 +53,11 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on iommu=pt"
 update-grub
 ```
 
+----
 
---------------------------------
-# load_VFIO_Modules
+- ### load_VFIO_Modules
+```bash
 # add below lines
-
-
 nano /etc/modules
 
 vfio
@@ -66,7 +65,7 @@ vfio_iommu_type1
 vfio_pci
 vfio_virqfd
 
----------------------------------------------------
+
 echo "options vfio_iommu_type1 allow_unsafe_interupts=1" > /etc/modprobe.d/iommu_unsafe_interrupts.conf
 echo "options kvm ignore_msrs=1" > /etc/modprobe.d/kvm.conf
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
@@ -74,8 +73,9 @@ echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
 update-initramfs -u
 
 reboot
+```
 
-----------------------------------------------------
+----
 
 dmesg | grep -e DMAR -e IOMMU
 
