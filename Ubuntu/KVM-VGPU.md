@@ -85,10 +85,12 @@ dmesg | grep -e DMAR -e IOMMU
 - ### 450.80.20 11.1 Linux KVM Vgpu version
 - ### copy NVIDIA-Linux-x86_64-450.80-vgpu-kvm to server
 
+```bash
 chmod +x NVIDIA-Linux-x86_64-450.80-vgpu-kvm.run
 ./NVIDIA-Linux-x86_64-450.80-vgpu-kvm.run --dkms
+```
 
---------------------------------------------------------
+----
 
 nano /usr/lib/systemd/system/nvidia-vgpud.service
 
