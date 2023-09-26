@@ -131,20 +131,14 @@ systemctl daemon-reload
 ```
 ----
 
-
--------------------------------------------------------------------------
-
-
+```bash
 #nano /usr/src/nvidia-450.80/nvidia/os-interface.c
 nano /usr/src/nvidia-460.73.01/nvidia/os-interface.c
-
 
 # below ---- #include "nv-time.h"
 # add this line
 
 #include "/root/vgpu_unlock/vgpu_unlock_hooks.c"
-
-
 
 nano /usr/src/nvidia-510.47.03/nvidia
 
@@ -159,7 +153,9 @@ add
 
 ldflags-y += -T /root/vgpu_unlock/kern.ld
 
+```
 
+----
 
 
 
