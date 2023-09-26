@@ -76,7 +76,9 @@ reboot
 
 ----
 
+```bash
 dmesg | grep -e DMAR -e IOMMU
+```
 
 --------Download nvidia kvm driver -----------------install proxmox 6.4
 
