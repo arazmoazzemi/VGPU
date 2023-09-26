@@ -174,7 +174,7 @@ mdevctl types
 
 
 - ### Drfine VGPU_Profile:
-- 
+```bash
 mdevctl types
 
 0000:01:00.0
@@ -216,7 +216,7 @@ mdevctl define -a -u 996f68a2-e324-11ec-8ba9-cfe187ac5a0a
 
 
 # mdevctl define -a -u f358fd7d-fdcd-454d-89d9-32d78968a818
-
+```
 
 
 --------------------
