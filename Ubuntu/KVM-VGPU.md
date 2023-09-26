@@ -157,26 +157,20 @@ ldflags-y += -T /root/vgpu_unlock/kern.ld
 
 ----
 
-
-
---------------------------
-
+```bash
 dkms remove -m nvidia -v 450.80 --all
 
 dkms install -m nvidia -v 450.80
 
-
 reboot
+```
 
-
+```bash
 
 dmseg
-
 nvidi-smi
-
-
 mdevctl types
-
+```
 
 
 -------------------VGPU_Profile------------------------------
