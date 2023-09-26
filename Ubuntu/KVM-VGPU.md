@@ -80,11 +80,10 @@ reboot
 dmesg | grep -e DMAR -e IOMMU
 ```
 
---------Download nvidia kvm driver -----------------install proxmox 6.4
-
-# 450.80.20        11.1 Linux KVM Vgpu version
-
-# copy NVIDIA-Linux-x86_64-450.80-vgpu-kvm to server
+----
+- ### Download nvidia kvm driver - install proxmox 6.4
+- ### 450.80.20 11.1 Linux KVM Vgpu version
+- ### copy NVIDIA-Linux-x86_64-450.80-vgpu-kvm to server
 
 chmod +x NVIDIA-Linux-x86_64-450.80-vgpu-kvm.run
 ./NVIDIA-Linux-x86_64-450.80-vgpu-kvm.run --dkms
