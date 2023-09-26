@@ -39,21 +39,19 @@ dpkg -i mdevctl_0.81-1_all.deb
 ----
 
 - ### Enable_IOMMU
-
-
+```bash
 nano /etc/default/grub
 
-disable or comment below line
+# disable or comment below line
 GRUB_CMDLINE_LINUX_DEFAULT="quiet"
 
-Add below lines :
+# Add below lines :
 
 #GRUB_CMDLINE_LINUX_DEFAULT="quiet amd_iommu=on iommu=pt"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on iommu=pt"
 
-
 update-grub
-
+```
 
 
 --------------------------------
