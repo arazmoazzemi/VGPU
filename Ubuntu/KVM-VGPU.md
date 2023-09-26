@@ -65,7 +65,6 @@ vfio_iommu_type1
 vfio_pci
 vfio_virqfd
 
-
 echo "options vfio_iommu_type1 allow_unsafe_interupts=1" > /etc/modprobe.d/iommu_unsafe_interrupts.conf
 echo "options kvm ignore_msrs=1" > /etc/modprobe.d/kvm.conf
 echo "blacklist nouveau" >> /etc/modprobe.d/blacklist.conf
