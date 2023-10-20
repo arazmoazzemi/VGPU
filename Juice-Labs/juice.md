@@ -55,8 +55,9 @@ tar -xf ../JuiceServer-linux.tar.gz
 ```
 
 ### Run the server:
-
-
+```bash
+agent 
+```
 
 
 
