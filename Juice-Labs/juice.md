@@ -21,6 +21,8 @@ agent.exe
 Juice Client (Windows):
 
 - [Download and install the Microsoft Visual C++ runtime](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- [Download the latest Juice client for Windows](https://github.com/Juice-Labs/Juice-Labs/releases/latest/download/JuiceClient-windows.zip)
+- Edit juice.cfg and set servers to the IP address or hostname of the Juice server to connect to
 
 ----
 ----
