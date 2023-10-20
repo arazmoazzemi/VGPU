@@ -22,5 +22,12 @@ agent.exe
 
 ### Juice Server (Linux):
 
+- NVIDIA driver 530.30 or later
+- CUDA toolkit 11.8
+- Allow access to TCP port 43210
 
+```bash
+
+
+```
 
