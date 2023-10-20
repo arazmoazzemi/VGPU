@@ -24,6 +24,11 @@ Juice Client (Windows):
 - [Download the latest Juice client for Windows](https://github.com/Juice-Labs/Juice-Labs/releases/latest/download/JuiceClient-windows.zip)
 - Edit juice.cfg and set servers to the IP address or hostname of the Juice server to connect to
 
+### Juice for Graphics:  
+
+
+### Juice for Compute:
+
 ----
 ----
 
