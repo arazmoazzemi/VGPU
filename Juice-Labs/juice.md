@@ -44,3 +44,23 @@ sudo ufw allow 43210
 
 ```
 
+### Run the server:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
