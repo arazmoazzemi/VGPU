@@ -23,7 +23,6 @@ Juice Client (Windows):
 - 
 
 ----
-****
 ----
 
 ### Juice Server (Linux):
