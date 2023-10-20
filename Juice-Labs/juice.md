@@ -20,7 +20,7 @@ agent.exe
 
 Juice Client (Windows):
 
-- 
+- (Download and install the Microsoft Visual C++ runtime)[https://aka.ms/vs/17/release/vc_redist.x64.exe]
 
 ----
 ----
