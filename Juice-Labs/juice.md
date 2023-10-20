@@ -27,7 +27,20 @@ agent.exe
 - Allow access to TCP port 43210
 
 ```bash
+sudo apt update
+sudo apt install libvulkan1 libgl1 libglib2.0-0
 
+# Install CUDA toolkit 11.8
+wget https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_520.61.05_linux.run
+sudo sh cuda_11.8.0_520.61.05_linux.run --silent --toolkit
+
+# Install NVIDIA driver 530
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt install nvidia-driver-515
+sudo reboot
+
+# Open TCP port 43210 (optional)
+sudo ufw allow 43210
 
 ```
 
