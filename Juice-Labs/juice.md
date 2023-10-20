@@ -44,6 +44,16 @@ sudo ufw allow 43210
 
 ```
 
+### nstall the latest Juice server for Linux:
+
+```bash
+wget https://github.com/Juice-Labs/Juice-Labs/releases/latest/download/JuiceServer-linux.tar.gz
+mkdir JuiceServer
+cd JuiceServer
+tar -xf ../JuiceServer-linux.tar.gz
+
+```
+
 ### Run the server:
 
 
