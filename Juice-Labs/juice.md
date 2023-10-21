@@ -26,7 +26,9 @@ Juice Client (Windows):
 
 ### - For example:
 ### Juice for Graphics:  
-
+```cmd
+C:\juice\juicify.exe "C:\juice\vkcube.exe"
+```
 
 ### Juice for Compute:
 ```cmd
