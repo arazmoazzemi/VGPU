@@ -13,7 +13,7 @@
 
 - [latest Juice server for Windows](https://github.com/Juice-Labs/Juice-Labs/releases/latest/download/JuiceServer-windows.zip)
 
-Run the server:
+Run the server(Windows host):
 ```cmd
 agent.exe
 ```
