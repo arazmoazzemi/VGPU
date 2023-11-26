@@ -241,51 +241,25 @@ args: -device 'vfio-pci,sysfsdev=/sys/bus/mdev/devices/33fac024-b107-11ec-828d-2
 
 args: -device 'vfio-pci,sysfsdev=/sys/bus/mdev/devices/79a21fc8-41d5-4d31-9532-3013e71962f7,display=off,id=hostpci0.0,bus=ich9-pcie-port-1,addr=0x0.0,x-pci-vendor-id=0x10de,x-pci-device-id=0x1e30,x-pci-sub-vendor-id=0x10de,x-pci-sub-device-id=0x12ba' -uuid 00000000-0000-0000-0000-000000000100
 
-```
 
+```bash
 
+# https://wvthoog.nl/proxmox-7-vgpu-v2/
 
+# -----------rust---------------
 
-
-
-
-
-
-
-
-https://wvthoog.nl/proxmox-7-vgpu-v2/
-
-
-------------------rust-----------------------
 sudo apt update && sudo apt upgrade
-
-
-
-
 curl https://sh.rustup.rs -sSf | sh
 
-
 source $HOME/.cargo/env
-
 ------
-
-
-
-
-
-
-
-
-
-
-
 
 <graphics type="spice" autoport="yes">
   <listen type="address"/>
   <image compression="off"/>
 </graphics>
 
-
+```
 
 
 
